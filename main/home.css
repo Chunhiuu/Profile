@@ -201,9 +201,11 @@ body:before {
 	object-position: top;
 }
 
-img {
-	width: 100%;
-	height: auto;
+img{
+    width:350px;
+    height:500px;
+    object-fit:cover;
+    object-position:top;
 }
 .wrapperpro {
 	width: 100%;
