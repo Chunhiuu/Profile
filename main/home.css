@@ -16,7 +16,7 @@ html {
 }
 body {
 	overflow: hidden;
-	background-image: url("https://api.nekosapi.com/v4/images/random/file"); /*random bg anime*/
+	background-image: url("https://pic.re/image"); /*random bg anime*/
 	background-size: cover;
 	position: fixed;
 	padding: 0px;
@@ -75,7 +75,7 @@ body:before {
 */
 
 .profile-card {
-	background: #ff5722;
+	background: #214871;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -153,7 +153,7 @@ body:before {
 
 @-webkit-keyframes moveUp {
 	0% {
-		background: #ffb300;
+		background: #293c9c;
 		top: 100%;
 	}
 	50% {
@@ -175,9 +175,10 @@ body:before {
 	100% {
 		box-shadow: 0 0 10px 1px #00eeff;
 		width: 510px;
-		height: 840px;
+		height: 760px;
 		background: #0d0f18;
 		-webkit-border-radius: 25px;
+		border-radius: 20px;
 	}
 }
 
@@ -196,16 +197,16 @@ body:before {
 
 #anime {
 	width: 510px;
-	height: 280px;
+	height: 780px;
 	object-fit: cover;
 	object-position: top;
 }
 
-img{
-    width:350px;
-    height:500px;
-    object-fit:cover;
-    object-position:top;
+img {
+	width: 350px;
+	height: 500px;
+	object-fit: cover;
+	object-position: top;
 }
 .wrapperpro {
 	width: 100%;
@@ -225,7 +226,7 @@ img{
 	text-align: center;
 }
 .profile-card .profile-body .author-img img {
-	background: #0d0f18;
+	background: #131728;
 	border-radius: 50%;
 	margin: 60px;
 	height: 150px;
